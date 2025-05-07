@@ -12,7 +12,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:3000/api/v1/user/password/forgot",
+        "https://nxtwaveproject-backend.onrender.com/api/v1/user/password/forgot",
         { email },
         {
           withCredentials: true,
