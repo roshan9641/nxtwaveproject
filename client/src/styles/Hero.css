@@ -1,0 +1,177 @@
+    body, h1, h2, h3, h4, p, ul, li, select, input, button {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Global Styles */
+    body {
+      background-color: white;
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Header Styles */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header-logo-icon img {
+      height: 24px;
+      width: 24px;
+    }
+
+    .header-center {
+      text-align: center;
+      flex: 1;
+    }
+
+    .header-logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .header-nav {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 8px;
+    }
+
+    .header-nav a {
+      font-size: 14px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .header-nav a:hover {
+      color: #555;
+    }
+
+    .header-icons {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .header-icons button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .header-icons svg {
+      height: 20px;
+      width: 20px;
+    }
+
+    .header-icons select {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    /* Section 1: Header Container */
+    .section-header {
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .section-header h2 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .section-header p {
+      color: #555;
+      margin-top: 12px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Section 2: Subheader */
+    .subheader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      font-size: 14px;
+      color: #777;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .subheader .filter-link {
+      color: #007BFF;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .subheader select {
+      border: 1px solid #ddd;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    /* Section 3: Main Container with Sidebar */
+    .main-container {
+      display: flex;
+      gap: 32px;
+      padding: 32px;
+    }
+
+    /* Sidebar Styles */
+    .sidebar {
+      width: 25%;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .sidebar h3 {
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .sidebar select, .sidebar input[type="checkbox"] {
+      margin-top: 8px;
+    }
+
+    .sidebar label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Product Grid */
+    .product-grid {
+      width: 75%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .product-card img {
+      margin-bottom: 16px;
+    }
+
+    .product-card h4 {
+      font-weight: 600;
+    }
+
+    .product-card p {
+      font-size: 14px;
+      color: #777;
+    }
